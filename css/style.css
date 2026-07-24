@@ -9710,3 +9710,57 @@ textarea.form-control {
   .skill-tag:hover {
     background: #3e64ff;
     color: #fff; }
+
+.project-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 6px;
+  transition: 0.25s; }
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important; }
+
+.project-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #a05a00;
+  background: rgba(255, 171, 0, 0.15);
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin-bottom: 12px; }
+
+.project-title {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.project-desc {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 15px;
+  flex-grow: 1; }
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px; }
+
+.project-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e64ff; }
+  .project-link:hover {
+    color: #2748d6;
+    text-decoration: none; }
+
+.project-link-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; }
