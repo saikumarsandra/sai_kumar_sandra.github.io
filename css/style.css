@@ -9672,3 +9672,41 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.skills-group-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 30px 0 15px; }
+  .skills-group-label:first-of-type {
+    margin-top: 0; }
+
+.skill-category {
+  margin-bottom: 22px; }
+
+.skill-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px; }
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; }
+
+.skill-tag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3e64ff;
+  background: rgba(62, 100, 255, 0.08);
+  border: 1px solid rgba(62, 100, 255, 0.25);
+  border-radius: 20px;
+  padding: 6px 14px;
+  transition: 0.2s; }
+  .skill-tag:hover {
+    background: #3e64ff;
+    color: #fff; }
